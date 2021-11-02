@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "filters": "^1.0.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
@@ -37,16 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "React website for COSC 4397 Team 2 project 1 (Teen Therapy Solutions)",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://FL21-COSC4397-T10@dev.azure.com/FL21-COSC4397-T10/Team%2010/_git/Team%2010"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-
-  "description": "React website fo  }
+  }
+}

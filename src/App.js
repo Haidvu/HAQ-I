@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header'
 import Home from './components/Home';
-import Location from './components/Location';
+import RankedLocations from './components/ranked_locations/RankedLocations';
+import RankedPollutants from './components/ranked_pollutants/RankedPollutants';
 import Pollutants from './components/Pollutants';
 import Agency from './components/Agency';
 
@@ -16,14 +17,14 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/location">
-          <Location />
+        <Route exact path="/ranked-locations">
+          <RankedLocations />
+        </Route>
+        <Route exact path="/ranked-pollutants">
+          <RankedPollutants />
         </Route>
         <Route exact path="/pollutants">
           <Pollutants />
-        </Route>
-        <Route exact path="/agency">
-          <Agency />
         </Route>
       </Switch>
     </Router>
