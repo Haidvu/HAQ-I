@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, AppBar, Grid, Toolbar, Button, Container, IconButton } from '@material-ui/core';
+import { Typography, AppBar, Grid, Toolbar, Button, Container, IconButton } from '@mui/material';
 import { Equalizer } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 import HeaderStyles from '../styles/HeaderStyles';
