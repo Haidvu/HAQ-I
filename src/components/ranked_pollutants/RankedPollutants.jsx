@@ -1,14 +1,14 @@
-import { blue, orange} from '@material-ui/core/colors';
+
 import React, { useState } from 'react';
 // import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
 
 import { makeStyles } from "@material-ui/core/styles";
+import { blue, orange} from '@material-ui/core/colors';
+// import { render } from 'react-dom'
+// import Highcharts from 'highcharts'
+// import HighchartsReact from 'highcharts-react-official'
 
-import { render } from 'react-dom'
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
-
-import { TrendingUpRounded } from '@material-ui/icons';
+// import { TrendingUpRounded } from '@material-ui/icons';
 
 
 import { styled } from '@mui/material/styles';
@@ -19,7 +19,7 @@ import StackedBarChart from "./StackedBar"
 import HealthEffect from './HealthEffect';
 
 import axios from 'axios'
-import Pollutants from '../Pollutants';
+
 
 function RankedPollutant(){
   const Item = styled(Paper)(({ theme }) => ({
@@ -42,7 +42,7 @@ console.log("render")
     .then(res => {
       console.log('airdata',res.data)
       setPollutants(res.data);
-      
+
       var AQIs=[res.data[2].AQI,res.data[1].AQI,res.data[0].AQI]
       var names=[res.data[2].ParameterName,res.data[1].ParameterName,res.data[0].ParameterName]
       var risks=[res.data[2].Category.Name,res.data[1].Category.Name,res.data[0].Category.Name]

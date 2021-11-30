@@ -1,14 +1,14 @@
-import { blue, orange} from '@material-ui/core/colors';
+
 import React from 'react';
 // import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
 
-import { makeStyles } from "@material-ui/core/styles";
+// import { makeStyles } from "@material-ui/core/styles";
 
-import { render } from 'react-dom'
+
 import Highcharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
 
-import { TrendingUpRounded } from '@material-ui/icons';
+
 
 import './style.css'
 import { styled } from '@mui/material/styles';

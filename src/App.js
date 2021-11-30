@@ -7,6 +7,10 @@ import PollutantsTrend from './components/pollutants_trend/PollutantsTrend';
 import RankedLocations from './components/ranked_locations/RankedLocations';
 import RankedPollutants from './components/ranked_pollutants/RankedPollutants';
 import Pollutants from './components/Pollutants';
+import Agency from './components/Agency';
+import Map from './components/map/Map';
+
+
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
@@ -37,6 +41,9 @@ function App() {
         </Route>
         <Route exact path="/pollutants">
           <Pollutants />
+        </Route>
+        <Route exact path="/map">
+          <Map />
         </Route>
       </Switch>
       </div>

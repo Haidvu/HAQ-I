@@ -1,21 +1,14 @@
-import { blue, orange} from '@material-ui/core/colors';
+
 
 // import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
 
-
-import axios from 'axios'
-import { useState } from 'react';
+// import axios from 'axios'
+// import { useState } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
-
-import { render } from 'react-dom'
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
-
-import { TrendingUpRounded } from '@material-ui/icons';
 
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import StackedBarChart from "./StackedBar"
+// import StackedBarChart from "./StackedBar"
 
 // import '@fontsource/roboto/300.css';
 // import '@fontsource/roboto/400.css';
@@ -25,26 +18,16 @@ import StackedBarChart from "./StackedBar"
 
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import { Container } from '@mui/material';
-import { spacing } from '@mui/system';
 
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
-import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Collapse from '@mui/material/Collapse';
-import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props;
