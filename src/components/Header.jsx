@@ -39,6 +39,11 @@ const Home = () => {
                       Agency
                     </Typography>
                   </Button>
+                  <Button variant="text" href="/map">
+                    <Typography className={classes.appBarText}>
+                      Map
+                    </Typography>
+                    </Button>
               </Container>
             </Grid>
           </Grid>
