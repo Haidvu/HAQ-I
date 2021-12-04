@@ -1,0 +1,17 @@
+.box{
+font-family: Didact Gothic;
+color: black;
+}
+.elipse{
+    position: absolute;
+width: 33px;
+height: 32px;
+left: 797px;
+top: 757px;
+
+background: #C4C4C4;
+}
+
+.box{
+    padding-top: 10pt;
+}

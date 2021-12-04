@@ -1,5 +1,6 @@
 import React from 'react';
-// import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
+import { Line } from 'react-chartjs-2';
+import { Paper } from '@mui/material';
 
 const RankedPollutants = () => {
   return (

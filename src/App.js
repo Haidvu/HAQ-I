@@ -7,6 +7,7 @@ import PollutantsTrend from './components/pollutants_trend/PollutantsTrend';
 import RankedLocations from './components/ranked_locations/RankedLocations';
 import RankedPollutants from './components/ranked_pollutants/RankedPollutants';
 import Pollutants from './components/Pollutants';
+import Agency from './components/Agency';
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
@@ -26,9 +27,6 @@ function App() {
         <Route exact path="/">
           <Dashboard />
         </Route>
-        <Route exact path="/pollutants-trend">
-          <PollutantsTrend />
-        </Route>
         <Route exact path="/ranked-locations">
           <RankedLocations />
         </Route>
@@ -38,6 +36,10 @@ function App() {
         <Route exact path="/pollutants">
           <Pollutants />
         </Route>
+        <Route exact path="/agency" component={() => { 
+          window.location.href = 'https://www.tceq.texas.gov/permitting/reporting.html'; 
+          return null;
+        }}/>
       </Switch>
       </div>
     </Router>
