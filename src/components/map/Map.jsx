@@ -1,14 +1,10 @@
 import React, { useState, useRef, useCallback } from "react";
 import ReactMapGL, {Marker, Popup} from "react-map-gl";
 import img from "./aqi_logo.jpg"
-import { Component } from "react";
 import { render } from "react-dom";
 import {GeolocateControl} from "react-map-gl";
-
-import MapGL from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import axios from 'axios';
-import Button from '@mui/material/Button';
 import { useEffect } from "react";
 require('dotenv').config();
 
@@ -73,8 +69,7 @@ const Map = () => {
    
   return (
 
-      <div>
-
+    <div>
       <ReactMapGL 
          {...viewport} 
           mapboxApiAccessToken="pk.eyJ1IjoiY29ycmlnZXV4IiwiYSI6ImNrdnZ6dHl4NTBkenAybm8xd3JvZnBtYngifQ.2NhYu29NM9-8J5adEyvuzA"

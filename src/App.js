@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 import PermanentDrawer from './components/PermanentDrawer'
 import Dashboard from './components/Dashboard';
 import PollutantsTrend from './components/pollutants_trend/PollutantsTrend';
@@ -22,6 +21,7 @@ const useStyles = makeStyles({
 function App() {
   const classes = useStyles()
   return (
+    <>
     <Router >
       <div className={classes.root}>
       <PermanentDrawer/>
@@ -48,6 +48,7 @@ function App() {
       </Switch>
       </div>
     </Router>
+  </>
   );
 }
 
