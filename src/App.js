@@ -26,7 +26,7 @@ function App() {
       <div className={classes.root}>
       <PermanentDrawer/>
       <Switch>
-        <Route exact path="/HAQI">
+        <Route exact path="/HAQ-I">
           <Dashboard />
         </Route>
         <Route exact path="/ranked-locations">
