@@ -41,7 +41,7 @@ const PermanentDrawer = () => {
     {
       text: 'Dashboard',
       icon: <GraphicEqIcon sx={{fill: iconColor}}/>,
-      path: '/'
+      path: '/HAQ-I'
     },
     {
       text: 'Map',
