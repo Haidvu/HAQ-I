@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.00950787.chunk.css",
-    "main.js": "/static/js/main.e3096dd7.chunk.js",
-    "main.js.map": "/static/js/main.e3096dd7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d2ed44b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d2ed44b1.js.map",
-    "static/css/2.bd66a91b.chunk.css": "/static/css/2.bd66a91b.chunk.css",
-    "static/js/2.a2658363.chunk.js": "/static/js/2.a2658363.chunk.js",
-    "static/js/2.a2658363.chunk.js.map": "/static/js/2.a2658363.chunk.js.map",
-    "static/js/3.e61918db.chunk.js": "/static/js/3.e61918db.chunk.js",
-    "static/js/3.e61918db.chunk.js.map": "/static/js/3.e61918db.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.bd4fd446065fa124ca28d0c6dfb3c0f6.js": "/precache-manifest.bd4fd446065fa124ca28d0c6dfb3c0f6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.bd66a91b.chunk.css.map": "/static/css/2.bd66a91b.chunk.css.map",
-    "static/css/main.00950787.chunk.css.map": "/static/css/main.00950787.chunk.css.map",
-    "static/js/2.a2658363.chunk.js.LICENSE.txt": "/static/js/2.a2658363.chunk.js.LICENSE.txt",
-    "static/media/aqi_logo.jpg": "/static/media/aqi_logo.aa692d9f.jpg"
+    "main.css": "/HAQI/static/css/main.00950787.chunk.css",
+    "main.js": "/HAQI/static/js/main.2c3a0e31.chunk.js",
+    "main.js.map": "/HAQI/static/js/main.2c3a0e31.chunk.js.map",
+    "runtime-main.js": "/HAQI/static/js/runtime-main.b117b94f.js",
+    "runtime-main.js.map": "/HAQI/static/js/runtime-main.b117b94f.js.map",
+    "static/css/2.bd66a91b.chunk.css": "/HAQI/static/css/2.bd66a91b.chunk.css",
+    "static/js/2.cf8c3739.chunk.js": "/HAQI/static/js/2.cf8c3739.chunk.js",
+    "static/js/2.cf8c3739.chunk.js.map": "/HAQI/static/js/2.cf8c3739.chunk.js.map",
+    "static/js/3.e61918db.chunk.js": "/HAQI/static/js/3.e61918db.chunk.js",
+    "static/js/3.e61918db.chunk.js.map": "/HAQI/static/js/3.e61918db.chunk.js.map",
+    "index.html": "/HAQI/index.html",
+    "precache-manifest.ecb79a67c25bc2e3266ac340f40d28c9.js": "/HAQI/precache-manifest.ecb79a67c25bc2e3266ac340f40d28c9.js",
+    "service-worker.js": "/HAQI/service-worker.js",
+    "static/css/2.bd66a91b.chunk.css.map": "/HAQI/static/css/2.bd66a91b.chunk.css.map",
+    "static/css/main.00950787.chunk.css.map": "/HAQI/static/css/main.00950787.chunk.css.map",
+    "static/js/2.cf8c3739.chunk.js.LICENSE.txt": "/HAQI/static/js/2.cf8c3739.chunk.js.LICENSE.txt",
+    "static/media/aqi_logo.jpg": "/HAQI/static/media/aqi_logo.aa692d9f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2ed44b1.js",
+    "static/js/runtime-main.b117b94f.js",
     "static/css/2.bd66a91b.chunk.css",
-    "static/js/2.a2658363.chunk.js",
+    "static/js/2.cf8c3739.chunk.js",
     "static/css/main.00950787.chunk.css",
-    "static/js/main.e3096dd7.chunk.js"
+    "static/js/main.2c3a0e31.chunk.js"
   ]
 }
