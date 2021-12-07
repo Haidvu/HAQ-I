@@ -4,14 +4,13 @@ import img from "./aqi_logo.jpg"
 import { render } from "react-dom";
 import {GeolocateControl} from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
+import mapboxgl from 'mapbox-gl';
 import axios from 'axios';
 import { useEffect } from "react";
 require('dotenv').config();
 
-// first hardcode an array. Then take all longitude/latitude, AQI, Parameter data from API call. Load data into array. 
-// Once loaded, use map function to map through the array and create the marker component.
-
-// import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container } from '@material-ui/core';
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 
 
 const geolocateControlStyle= {

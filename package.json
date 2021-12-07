@@ -30,6 +30,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "^3.4.4",
     "web-vitals": "^1.1.2",
+    "worker-loader": "^3.0.8",
     "yocto-queue": "^1.0.0"
   },
   "scripts": {
