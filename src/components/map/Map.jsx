@@ -1,12 +1,14 @@
 import React, { useState, useRef, useCallback } from "react";
 import ReactMapGL, {Marker, Popup} from "react-map-gl";
-import img from "./aqi_logo.jpg"
 import { render } from "react-dom";
 import {GeolocateControl} from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from 'mapbox-gl';
 import axios from 'axios';
 import { useEffect } from "react";
+import IconButton from '@mui/material/IconButton';
+import RoomIcon from '@mui/icons-material/Room';
+import Box from '@mui/material/Box';
 require('dotenv').config();
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
@@ -84,13 +86,13 @@ const Map = () => {
      longitude={item.Longitude}
      >
        
-   <button onClick={(e) => {
+   <IconButton onClick={(e) => {
      e.preventDefault();
      setSelectedMonitor(item);
    }}>
-      <img src={img} alt="Monitor Location Icon" styles="transparent"/>
-      
-   </button>
+      {/* <img src={img} alt="Monitor Location Icon" styles="transparent"/> */}
+      <RoomIcon sx={{fill: '#F50013', maxWidth: '30px', maxHeight: '30px', minWidth: '30px', minHeight: '30px' }} size="large"/>
+   </IconButton>
    
     </Marker>
 )))}
@@ -100,14 +102,14 @@ const Map = () => {
 <Popup 
 latitude={selectedMonitor.Latitude} 
 longitude={selectedMonitor.Longitude}
+offsetLeft={23}
+offsetTop={10}
 onClose={() => {
   setSelectedMonitor(null);
 }}
 
 >
   <div>
-  
-    <h2 className="body">Monitor Information</h2>
     <p><strong>AQI:</strong> {selectedMonitor.AQI}</p>
     <p><strong>Parameter:</strong> {selectedMonitor.Parameter}</p>
     <p><strong>Raw Concentration:</strong> {selectedMonitor.RawConcentration}</p>
