@@ -145,8 +145,7 @@ const Dashboard = () => {
             <TextField 
               label="ZIPCODE" 
               variant="standard" 
-              InputLabelProps={{ shrink: false, }} 
-              inputProps={{ maxLength: 5, style: { textAlign: 'center', marginLeft: '50px', color: '#1976d2' } }}
+              inputProps={{ maxLength: 5, style: { textAlign: 'center', color: '#1976d2' } }}
               onKeyUp={(e) => e.key === 'Enter' ? CheckState() : CheckLength(e.target.value) ? GetPollutansTrendData(e.target.value) : null} />
               {/* <Button variant="contained" sx={{ ml: '5px', mt: '12px' }} onClick={() => CheckState()}>Search</Button> */}
           </Grid>
