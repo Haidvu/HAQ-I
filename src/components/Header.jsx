@@ -4,6 +4,7 @@ import { Equalizer } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 import HeaderStyles from '../styles/HeaderStyles';
 
+// Home page
 const Home = () => {
   const classes = HeaderStyles();
   return (
