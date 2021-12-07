@@ -128,7 +128,7 @@ function HealthEffect(names_, aqi_, risk_) {
    
 return(
     
-    <div className="box" style={{ height: '200px'}}>
+    <div className="box">
        <div>
        
       {/* <button variant="contained" onClick={() => GetRankedPollutantsData()}>Refresh</button>          */}
@@ -137,7 +137,7 @@ return(
     
 
       {/* {(typeof pollutants.data!="undefined")? ( */}
-        <Card style={{ height: '210%'}}>
+        <Card>
             <CardContent>
                 <Typography variant="h4" component={"span"} align="left" className={classes.title}>Health Effects</Typography>
 

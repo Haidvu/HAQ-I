@@ -1,0 +1,50 @@
+.aqi-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    color: black;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.element-wrapper {
+    width: 360px;
+}
+
+.chartbar-item {
+    height: 64px;
+}
+
+.chartbar-wrapper {
+    position: relative;
+}
+
+.chartbar-main {
+    position: absolute;
+    display: block;
+    left: 0;
+    background-color: white;
+    border: solid 1px gray;
+    box-shadow: 10px 2px 10px rgba(0,0,0,0.7);
+    border-left: 0px;
+    margin-top: 8px;
+    height: 8px;
+    z-index: 2;
+}
+
+.chartbar-bg {
+    position: absolute;
+    display: flex;
+    left: 0;
+    background-color: gray;
+    height: 24px;
+    width: 100%;
+    z-index: 1;
+}
+
+.chartbar-group {
+    height: 24px;
+}
