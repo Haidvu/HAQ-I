@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "http://haidvu.github.io/HAQI",
+  "homepage": "http://haidvu.github.io/HAQ-I",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.6.0",
