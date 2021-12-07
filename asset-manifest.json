@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HAQI/static/css/main.00950787.chunk.css",
-    "main.js": "/HAQI/static/js/main.2c3a0e31.chunk.js",
-    "main.js.map": "/HAQI/static/js/main.2c3a0e31.chunk.js.map",
+    "main.js": "/HAQI/static/js/main.c169e38c.chunk.js",
+    "main.js.map": "/HAQI/static/js/main.c169e38c.chunk.js.map",
     "runtime-main.js": "/HAQI/static/js/runtime-main.b117b94f.js",
     "runtime-main.js.map": "/HAQI/static/js/runtime-main.b117b94f.js.map",
     "static/css/2.bd66a91b.chunk.css": "/HAQI/static/css/2.bd66a91b.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.e61918db.chunk.js": "/HAQI/static/js/3.e61918db.chunk.js",
     "static/js/3.e61918db.chunk.js.map": "/HAQI/static/js/3.e61918db.chunk.js.map",
     "index.html": "/HAQI/index.html",
-    "precache-manifest.ecb79a67c25bc2e3266ac340f40d28c9.js": "/HAQI/precache-manifest.ecb79a67c25bc2e3266ac340f40d28c9.js",
+    "precache-manifest.79eb6f75e476054f8c3fb2f77c70f35e.js": "/HAQI/precache-manifest.79eb6f75e476054f8c3fb2f77c70f35e.js",
     "service-worker.js": "/HAQI/service-worker.js",
     "static/css/2.bd66a91b.chunk.css.map": "/HAQI/static/css/2.bd66a91b.chunk.css.map",
     "static/css/main.00950787.chunk.css.map": "/HAQI/static/css/main.00950787.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.bd66a91b.chunk.css",
     "static/js/2.cf8c3739.chunk.js",
     "static/css/main.00950787.chunk.css",
-    "static/js/main.2c3a0e31.chunk.js"
+    "static/js/main.c169e38c.chunk.js"
   ]
 }
