@@ -8,7 +8,6 @@ import axios from 'axios';
 import { useEffect } from "react";
 import IconButton from '@mui/material/IconButton';
 import RoomIcon from '@mui/icons-material/Room';
-import Box from '@mui/material/Box';
 require('dotenv').config();
 
 // eslint-disable-next-line import/no-webpack-loader-syntax

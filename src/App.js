@@ -5,8 +5,7 @@ import Dashboard from './components/Dashboard';
 import PollutantsTrend from './components/pollutants_trend/PollutantsTrend';
 import RankedLocations from './components/ranked_locations/RankedLocations';
 import RankedPollutants from './components/ranked_pollutants/RankedPollutants';
-import Pollutants from './components/Pollutants';
-import Agency from './components/Agency';
+import Pollutants from './components/Pollutants/Pollutants';
 import Map from './components/map/Map';
 
 import { makeStyles } from '@mui/styles';

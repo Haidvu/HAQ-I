@@ -63,6 +63,7 @@ const Dashboard = () => {
   const [apiLimitError, setApiLimitError] = useState(false)
   const [pollutantsTrendData, setPollutantsTrendData] = useState(() => InitialPollutantsTrendData());
   const [rankedPollutantsData, setRankedPollutantsdata] = useState(() => InitialRankedLocationData());
+  const [zipcode, setZipcode] = useState('');
   const chartLabels = GetDayOfWeekLabels(new Date().getDay());
 
   const GetRankedLocationData = async () => {
@@ -94,6 +95,7 @@ const Dashboard = () => {
 
   const GetPollutansTrendData = (myZip) => {
     // Set initial day of year and current year
+    setZipcode(myZip);
     let dateObj = GetCalendarDate(0, new Date().getFullYear())
     let calendarDate = dateObj.getFullYear() + '-' + (dateObj.getMonth() + 1) + '-' + dateObj.getDate()
     console.log('CURRENT DATE', calendarDate)
@@ -158,7 +160,7 @@ const Dashboard = () => {
           </Grid>
           <Grid item xs={6} md={6} lg={6}>
             <Box sx={{ width: '98%', height: '25%', margin: '8px'}}>
-              <RankedPollutants data={null}/>
+              <RankedPollutants zip={zipcode}/>
             </Box>
           </Grid>
           <Grid item xs={6} md={6} lg={6}>

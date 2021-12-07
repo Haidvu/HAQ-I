@@ -6,29 +6,27 @@ import Box from "@mui/material/Box";
 import HealthEffect from "./HealthEffect";
 import StackedBarchart from "./BarChart";
 
-const RankedPollutant = () => {
-  const zipCodeInputEl = useRef(null);
+const RankedPollutant = (props) => {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState(null);
-  const [zipCode, setZipCode] = useState("77057");
-  let API_URL = `https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=${zipCode}&distance=25&API_KEY=055CDA36-3FC4-4E95-BBBE-73C265CF3131`;
+  const [zipCode, setZipCode] = useState(props.zip);
+
+  let API_URL = `https://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=${props.zip}&distance=25&API_KEY=055CDA36-3FC4-4E95-BBBE-73C265CF3131`;
+
+  console.log('RankedPollutant', props.zip);
 
   useEffect(() => {
+    setZipCode(props.zip)
     fetch(API_URL)
       .then((res) => res.json())
       .then((data) => {
         setData(data);
         setLoading(false);
       });
-  }, [zipCode]);
+    console.log('RankedPollutant useEffect', props.zip);
+  }, [props.zip]);
   return (
     <Card>
-      <input
-        type="number"
-        ref={zipCodeInputEl}
-        defaultValue={zipCode}
-        onChange={(e) => setZipCode(e.target.value)}
-      />
       <div className="flex">
         <div className="w-70">
           {data ? <div>{StackedBarchart(data, isLoading)}</div> : ""}
