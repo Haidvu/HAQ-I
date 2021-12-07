@@ -8,6 +8,8 @@ import RankedLocations from './components/ranked_locations/RankedLocations';
 import RankedPollutants from './components/ranked_pollutants/RankedPollutants';
 import Pollutants from './components/Pollutants';
 import Agency from './components/Agency';
+import Map from './components/map/Map';
+
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
@@ -40,6 +42,9 @@ function App() {
           window.location.href = 'https://www.tceq.texas.gov/permitting/reporting.html'; 
           return null;
         }}/>
+        <Route exact path="/map">
+          <Map />
+        </Route>
       </Switch>
       </div>
     </Router>
