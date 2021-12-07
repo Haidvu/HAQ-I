@@ -102,7 +102,7 @@ const Map = () => {
 <Popup 
 latitude={selectedMonitor.Latitude} 
 longitude={selectedMonitor.Longitude}
-offsetLeft={23}
+offsetLeft={22}
 offsetTop={10}
 onClose={() => {
   setSelectedMonitor(null);
