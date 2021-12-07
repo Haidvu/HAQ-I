@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/HAQIAPP/static/css/main.00950787.chunk.css",
+    "main.js": "/HAQIAPP/static/js/main.f5e4d7c4.chunk.js",
+    "main.js.map": "/HAQIAPP/static/js/main.f5e4d7c4.chunk.js.map",
+    "runtime-main.js": "/HAQIAPP/static/js/runtime-main.325c882e.js",
+    "runtime-main.js.map": "/HAQIAPP/static/js/runtime-main.325c882e.js.map",
+    "static/css/2.bd66a91b.chunk.css": "/HAQIAPP/static/css/2.bd66a91b.chunk.css",
+    "static/js/2.363d9a0f.chunk.js": "/HAQIAPP/static/js/2.363d9a0f.chunk.js",
+    "static/js/2.363d9a0f.chunk.js.map": "/HAQIAPP/static/js/2.363d9a0f.chunk.js.map",
+    "static/js/3.e61918db.chunk.js": "/HAQIAPP/static/js/3.e61918db.chunk.js",
+    "static/js/3.e61918db.chunk.js.map": "/HAQIAPP/static/js/3.e61918db.chunk.js.map",
+    "index.html": "/HAQIAPP/index.html",
+    "precache-manifest.6512a8790c287e95daeb1e6ee756d559.js": "/HAQIAPP/precache-manifest.6512a8790c287e95daeb1e6ee756d559.js",
+    "service-worker.js": "/HAQIAPP/service-worker.js",
+    "static/css/2.bd66a91b.chunk.css.map": "/HAQIAPP/static/css/2.bd66a91b.chunk.css.map",
+    "static/css/main.00950787.chunk.css.map": "/HAQIAPP/static/css/main.00950787.chunk.css.map",
+    "static/js/2.363d9a0f.chunk.js.LICENSE.txt": "/HAQIAPP/static/js/2.363d9a0f.chunk.js.LICENSE.txt",
+    "static/media/aqi_logo.jpg": "/HAQIAPP/static/media/aqi_logo.aa692d9f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.325c882e.js",
+    "static/css/2.bd66a91b.chunk.css",
+    "static/js/2.363d9a0f.chunk.js",
+    "static/css/main.00950787.chunk.css",
+    "static/js/main.f5e4d7c4.chunk.js"
+  ]
+}
