@@ -50,7 +50,7 @@ const PollutantsTrend = (props) => {
           }
         }
       }}
-      height={null}
+      height={'100px'}
       width={null}
       />
     </Paper>
