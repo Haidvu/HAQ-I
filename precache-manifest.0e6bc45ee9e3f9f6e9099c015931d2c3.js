@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25b2fe15866805a5105100cc9fdecae1",
+    "revision": "8265847481dcf635b1597475f0c55d4e",
     "url": "/HAQ-I/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HAQ-I/static/css/2.bd66a91b.chunk.css"
   },
   {
-    "revision": "0956c6dbef1e3bda1415",
+    "revision": "e1fd331901ef87ee411f",
     "url": "/HAQ-I/static/css/main.60ff42bb.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HAQ-I/static/js/3.086b3f6b.chunk.js"
   },
   {
-    "revision": "0956c6dbef1e3bda1415",
-    "url": "/HAQ-I/static/js/main.1135c82b.chunk.js"
+    "revision": "e1fd331901ef87ee411f",
+    "url": "/HAQ-I/static/js/main.fca63b16.chunk.js"
   },
   {
     "revision": "d86b20b41bb79a32bf43d778d80bb9bd",
